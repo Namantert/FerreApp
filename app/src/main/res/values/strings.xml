@@ -1,0 +1,206 @@
+<resources>
+    <string name="app_name" >AppFerre</string>
+    <string name="cedula">Cedula</string>
+    <string name="buscar">BUSCAR</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="edad">Edad</string>
+    <string name="puesto_laboral">Puesto laboral</string>
+    <string name="sexo">Sexo</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="modificar">MODIFICAR</string>
+    <string name="eliminar">ELIMINAR</string>
+    <string name="borrar">BORRAR</string>
+    <string name="telefono">Telefono</string>
+    <string name="codigo">Codigo</string>
+    <string name="tipo_material">Tipo del material</string>
+    <string name="nombre_material">Nombre del Material</string>
+    <string name="precio">Precio</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="numero">N°</string>
+    <string name="tipo">Tipo</string>
+
+    <string name="registroexitoso">Registro Exitoso</string>
+    <string name="registronoexitoso">Registro NO Exitoso</string>
+
+    <string name="registrar">REGISTRAR</string>
+    <string name="listados">LISTADOS</string>
+    <string name="reportes">REPORTES</string>
+    <string name="compras">COMPRAS</string>
+    <string name="cerrarsesion">CERRAR SESION</string>
+    <string name="registrarusuario">REGISTRAR USUARIO</string>
+    <string-array name="opciones_principal">
+        <item>@string/registrar</item>
+        <item>@string/listados</item>
+        <item>@string/reportes</item>
+        <item>@string/compras</item>
+        <item>@string/cerrarsesion</item>
+
+    </string-array>
+    <string-array name="opciones_principalemp">
+        <item>@string/listados</item>
+        <item>@string/compras</item>
+        <item>@string/cerrarsesion</item>
+    </string-array>
+    <string name="empleado">EMPLEADO</string>
+    <string name="cliente">CLIENTE</string>
+    <string name="material">MATERIAL</string>
+    <string name="registro_compras">REGISTRO DE LAS COMPRAS</string>
+    <string-array name="opciones_registros">
+        <item>@string/empleado</item>
+        <item>@string/material</item>
+    </string-array>
+    <string-array name="opciones_listas">
+        <item>@string/empleado</item>
+        <item>@string/material</item>
+        <item>@string/registro_compras</item>
+    </string-array>
+    <string-array name="opciones_listasemp">
+        <item>@string/material</item>
+        <item>@string/registro_compras</item>
+    </string-array>
+
+    <!--spinner de puestos Empleado-->
+    <string name="gerente">Gerente</string>
+    <string name="vendedor">Vendedor</string>
+    <string name="contador">Contador</string>
+    <string name="empleado_mostrador">Empleado de mostrador</string>
+    <string name="cajero">Cajero</string>
+    <string name="bodeguero">Bodeguero</string>
+    <string name="repartidor">Repartidor</string>
+    <string-array name="opciones_puestos">
+        <item>@string/gerente</item>
+        <item>@string/vendedor</item>
+        <item>@string/contador</item>
+        <item>@string/empleado_mostrador</item>
+        <item>@string/cajero</item>
+        <item>@string/bodeguero</item>
+        <item>@string/repartidor</item>
+    </string-array>
+
+    <!--mensaje de eliminacion-->
+    <string name="confirmacion">Confirmación</string>
+    <string name="mensaje_confirmacion">¿Está seguro que desea eliminar este empleado?</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="cancelar">Cancelar</string>
+    <!--mensajes de botones-->
+    <string name="empleado_guardado">Empleado guardado exitosamente</string>
+    <string name="empleado_eliminado">Empleado eliminado exitosamente</string>
+    <string name="empleado_modificado">Empleado modificado exitosamente</string>
+
+    <string name="error_cajacedula">Por favor digite la cedula</string>
+    <string name="error_cajanombre">Por favor digite el nombre</string>
+    <string name="error_cajaapellido">Por favor digite el apellido</string>
+    <string name="error_cajaedad">Por favor digite la edad</string>
+    <string name="error_cajacontraseña">Por favor digite la contraseña</string>
+    <string name="error_cajatelefono">Por favor digite la telefono</string>
+    <string name="error_cedula_existente">La cedula ya existe</string>
+    <string name="error_cedula_no_existente">La cedula dijitada no existe</string>
+    <string name="siguiente">SIGUIENTE</string>
+    <string name="agregar">AGREGAR</string>
+    <string name="comprar">COMPRAR</string>
+
+    <!--Spiner de Material Tipo -->
+    <string name="vacio"></string>
+    <string name="cerradura">Cerradura</string>
+    <string name="electricidad">Electricidad</string>
+    <string name="tornilleria">Tornilleria</string>
+    <string-array name="opciones_tipo">
+        <item>@string/cerradura</item>
+        <item>@string/electricidad</item>
+        <item>@string/tornilleria</item>
+    </string-array>
+    <!--Spiner de Material Nombre -->
+    <string name="cerradura_alta_ceguridad">Cerradura de alta seguridad</string>
+    <string name="cerradura_digital">Cerradura digital</string>
+    <string name="cerradura_manija">Cerradura de manija</string>
+    <string name="cerradura_pomo">Cerradura de pomo</string>
+    <string-array name="opciones_cerradura">
+        <item>@string/cerradura_alta_ceguridad</item>
+        <item>@string/cerradura_digital</item>
+        <item>@string/cerradura_manija</item>
+        <item>@string/cerradura_pomo</item>
+    </string-array>
+    <string name="canalizacion">Canalizacion</string>
+    <string name="extenciones">Extenciones</string>
+    <string name="tacos">Tacos</string>
+    <string-array name="opciones_electricidad">
+        <item>@string/canalizacion</item>
+        <item>@string/extenciones</item>
+        <item>@string/tacos</item>
+    </string-array>
+    <string name="chazos_anclajes">Chazos y Anclajes</string>
+    <string name="clavos">Clavos</string>
+    <string name="remaches">Remaches</string>
+    <string name="tornillos">Tornillos</string>
+    <string-array name="opciones_tornillos">
+        <item>@string/chazos_anclajes</item>
+        <item>@string/clavos</item>
+        <item>@string/remaches</item>
+        <item>@string/tornillos</item>
+    </string-array>
+
+    <!--Errores de material-->
+    <string name="error_codigo">Dijite el codigo</string>
+    <string name="error_precio">Dijite el precio</string>
+    <string name="error_cantidad">Dijite la cantidad</string>
+    <string name="error_codigo_existente">El codigo dijitado ya existe</string>
+    <string name="error_codigo_no_existente">El codigo dijitado no existe</string>
+    <string name="haga_busqueda">Por favor haga la busqueda</string>
+
+    <!--Mensajes de material-->
+    <string name="material_guardado">Mateial guardado exitosamente</string>
+    <string name="mensaje_confirmacion_material">¿Está seguro que desea eliminar este material?</string>
+    <string name="material_eliminado">Mateial eliminado exitosamente</string>
+    <string name="material_modificado">Mateial modificado exitosamente</string>
+    <string name="mensaje_nombre_existente">El nombre del material ya existe si desea ingresar mas modifique su cantidad</string>
+
+    <!--Clientes-->
+    <string name="cliente_guardado">Cliente guardado exitosamente</string>
+    <string name="cliente_existe">No hay ningun cliente registrado con esa cedula</string>
+    <string name="mensaje_confirmacion_cliente">¿Está seguro que desea eliminar este cliente?</string>
+    <string name="cliente_eliminado">Cliente eliminado exitosamente</string>
+    <string name="cliente_modificado">Mateial modificado exitosamente</string>
+    <string name="numero_compras">Compras</string>
+    <string name="nombre_cliente">Nombre del cliente</string>
+
+    <string name="compra_exitosa">Compra Exitosa</string>
+
+
+    <!-- Reportes -->
+    <string name="reporte1">Mostrar el empleado con mayor de edad</string>
+    <string name="reporte2">Mostrar el material mas caro</string>
+    <string name="reporte3">Mostrar el cliente con mas compras registradas</string>
+    <string-array name="opciones_reporte">
+        <item>@string/reporte1</item>
+        <item>@string/reporte2</item>
+        <item>@string/reporte3</item>
+    </string-array>
+    <string name="mensaje_reporte1">El empleado con mayor edad es</string>
+    <string name="mensaje_reportee1">No hay Reporte</string>
+    <string name="mensaje_reporte2">El material mas caro es</string>
+    <string name="mensaje_reporte3">El cliente que mas ha comprado es</string>
+    <string name="iniciarsession">INICIA SESION</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="entrar">Entrar</string>
+    <string name="registrarse">Registrase</string>
+    <string name="usuario">Usuario</string>
+    <string name="title_activity_login">INICIAR SESION</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+</resources>
